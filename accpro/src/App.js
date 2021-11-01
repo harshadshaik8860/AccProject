@@ -1,11 +1,20 @@
-import React from 'react'
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
+import logout from './Accounts/logout';
 import './App.css';
+import Home from './Pages/Home';
+import Home2 from './Pages/Home2';
 
-function App() {
+const App = () => {
   return (
     <div>
-      <h1>Welcome Acc Project</h1>
-      <p> CHecking if git working or not</p>
+      <Router>
+        <Route exact path="/" component={Home}/>
+        <Route path="/logout" component={logout}/>
+        <Route exact path="/home2" component={Home2}/>
+      </Router>
+      
     </div>
   );
 }

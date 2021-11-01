@@ -1,0 +1,43 @@
+*{
+    margin:0px;
+    padding: 0px;
+   
+
+}
+
+.navbar {
+   background-color: #d4c2a3;
+   height: 50px;
+  
+   
+}
+.navbar .container {
+    margin: 10px 10px;padding: 0px;
+   
+}
+
+.navbar .container .links{
+    text-decoration: none;
+   float: left;
+   color: #ffff;
+   padding: 0px 20px;
+   margin-right: 0px 10px;
+
+  
+}
+
+.navbar .container .button{
+    background-color: #BE2BBB;
+    border-radius: 5px;
+    border-color: #BE2BBB;
+    margin-right: 10px;
+    padding: 0px 10px;
+   
+}
+
+.navbar .container .button .link{
+    text-decoration: none;
+    padding: 0px 20px;
+    margin: auto;
+    
+}
