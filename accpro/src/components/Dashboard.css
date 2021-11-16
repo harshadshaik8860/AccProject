@@ -1,0 +1,20 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.row{
+    margin-left: 5px;
+}
+
+.color{
+    background-color: #BE2BBB;
+}
+
+ul .link{
+    text-decoration: none;
+}
+
+.text-center{
+    background-color: #EEE7E7;
+}
